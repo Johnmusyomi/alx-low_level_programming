@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - Entry point
  * Description: prints alphabet in lowercase then lowercase
@@ -14,7 +15,8 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'A'; ch <= 'Z'; ch++);
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}
