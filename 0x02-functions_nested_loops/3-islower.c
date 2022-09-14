@@ -10,13 +10,14 @@ int _islower(int c)
 {
 int j = 'a';
 
-for (j = 'a'; i <= 'z'; j++)
-{
+	for (j = 'a'; j <= 'z'; j++)
+	{
 	/* refer int c*/
-	if (c == i)
+	if (c == j)
 	{
 	Return(1);
 	}
-	{
-	return (0);
 	}
+
+return (0);
+}
