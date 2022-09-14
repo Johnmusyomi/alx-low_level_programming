@@ -3,12 +3,13 @@
 /**
  * _abs(int) - Entry point
  * @n: integer
- * Description: Returns an absolute value of any integer
+ * Description: prints the absolute value of an integer
  * Return: int
  */
 
 int _abs(int n)
 {
+
 	if (n > 0)
 	{
 		return (n);
@@ -18,5 +19,7 @@ int _abs(int n)
 		return (-n);
 	}
 	else
+	{
 		return (n);
+	}
 }
