@@ -8,14 +8,14 @@
  */
 int _islower(int c)
 {
-int j = 'a';
+int i = 'a';
 
-	for (j = 'a'; j <= 'z'; j++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 	/* refer int c*/
-	if (c == j)
+	if (c == i)
 	{
-	Return(1);
+	return(1);
 	}
 	}
 
