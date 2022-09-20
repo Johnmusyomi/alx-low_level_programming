@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_array - prints n elements of an array of integers, followed by a new line
+ * print_array - prints n elements of an array of integers
+ * followed by a new line
  * @a: array pointer int
  * @n: int type integer
  * Description: numbers should be separated by comma then space
